@@ -22,6 +22,9 @@ var allowedDomains = []string{"pinimg.com", "i.pinimg.com", "pinterest.com"}
 
 func main() {
 	gin.SetMode(gin.ReleaseMode)
+	gin.DefaultWriter = io.Discard
+	gin.DefaultErrorWriter = io.Discard
+
 	router := gin.Default()
 
 	router.Static("/static", "./static")
@@ -40,6 +43,7 @@ func main() {
 		c.HTML(http.StatusOK, "licenses.html", nil)
 	})
 
+	fmt.Println("Server started")
 	router.Run(":3000")
 }
 
