@@ -15,6 +15,14 @@ A Privacy-Focused Alternative to Pinterest.
 |-|-|-|
 | https://librerest.bunk.lol | 🇮🇸 IS ||
 
+## Speed
+| Performance Metric | Librerest | Pinterest |
+|-|-|-|
+| Performance | 100% | 30% |
+| Speed Index | 0.2 s | 4.4 s |
+
+Speed test results: [Librerest](https://pagespeed.web.dev/analysis?url=https://librerest.bunk.lol/), [Pinterest](https://pagespeed.web.dev/analysis?url=https://www.pinterest.com/)
+
 ## How to deploy
 1. Install docker
 2. Configure docker-compose.yml
