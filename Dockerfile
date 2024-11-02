@@ -10,6 +10,5 @@ FROM alpine:3.19
 COPY --from=build /app/librerest /librerest
 COPY templates /templates
 COPY static /static
-COPY --from=build /app/.env /.env
 EXPOSE 3000
 CMD ["/librerest"]
