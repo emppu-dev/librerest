@@ -1,5 +1,5 @@
 # Librerest
-A Privacy-Focused Alternative to Pinterest.
+A Privacy-Focused Pinterest Frontend.
 - No tracking
 - No exposing your IP address; connections are proxied
 - No JavaScript
@@ -11,9 +11,10 @@ A Privacy-Focused Alternative to Pinterest.
 ![Results](./screenshots/results.png)
 
 ## Instances
+Centralization is bad, clone this site!
 | URL | Location | Cloudflare |
 |-|-|-|
-| https://librerest.bunk.lol | 🇮🇸 IS ||
+| https://librerest.example.com | 🇺🇸 US ||
 
 ## Speed
 | Performance Metric | Librerest | Pinterest |
